@@ -24,3 +24,12 @@ X: `*88888%`     !    888I  888I  888R I888>   8888      888E   9888  888E  888R
                           💊 Manual Captcha completion until we find a way
                        🔐 All Accounts are created With Password set in file!!
 ```
+Install the required packages:
+
+Run this in your terminal or command prompt:
+```
+pip install selenium webdriver-manager colorama pyfiglet
+```
+Then
+```
+python spotify.py
