@@ -232,6 +232,7 @@ def stream(email, url):
             driver.find_element(By.XPATH, "//*[@id='login-username']").send_keys(email)
             random_sleep()
             print("💉 email = " + email)
+            #your password goes here
             driver.find_element(By.XPATH, "//*[@id='login-password']").send_keys("Yourpassword")
             print("💉 password = **********")
             random_sleep()
