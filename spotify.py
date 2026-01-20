@@ -158,7 +158,7 @@ def register(email):
         driver.find_element(By.XPATH, "/html/body/div[1]/main/main/section/div/form/button").click()
         random_sleep()
         print("💉 password = **********")
-        driver.find_element(By.XPATH, "//*[@id='new-password']").send_keys("hitler301998")
+        driver.find_element(By.XPATH, "//*[@id='new-password']").send_keys("123456789")
         random_sleep()
         driver.find_element(By.XPATH, "/html/body/div[1]/main/main/section/div/form/div[2]/button").click()
         random_sleep()
@@ -347,3 +347,4 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
